@@ -17,12 +17,14 @@ This analysis was commissioned by the VP of Sales to understand patterns behind 
 
 ---
 
-## 📊 Dashboard
+## 📊 Dashboard & Reports
 
 🔗 **Live Looker Studio Dashboard**  
-[View Dashboard](https://lookerstudio.google.com/reporting/e5f1454c-c8e4-481f-9ac8-375a3bdd289c)
+- [View Dashboard](https://lookerstudio.google.com/reporting/e5f1454c-c8e4-481f-9ac8-375a3bdd289c)
 
-Includes filters by cohort, loyalty tier, return reason, and fulfillment channel.
+
+🔗 **Interactive HTML Report** 
+ - [Download Report](Executive_Retail_Returns_Report.html)
 
 ---
 
