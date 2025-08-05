@@ -114,7 +114,7 @@ sql_stories/
 │   └── dark_logo_banner.png           # Project header image or branding
 │
 ├── story_01_inventory_accuracy/
-│   └── sceanrio_01_inventory_accuracy.md
+│   └── scenrio_01_inventory_accuracy.md
 │
 ├── story_02_customer_retention_snapshot/
 │   └── scenari_02_retention_snapshot.md
@@ -146,14 +146,12 @@ sql_stories/
 
 <summary>💡 Sample AI Prompt for Scenario Design</summary>
 
-Use this data generator alongside AI to create realistic business analysis scenarios. For the best results, upload your generated database to enable context-aware assistance.
+💡 Need ideas? Check out the full [Sample AI Prompt](sample_ai_prompt.md) — designed to help you or others generate new business scenarios using the `ecom_retailer.db` dataset.
 
-```text
-I have a synthetic e-commerce dataset with tables for orders, returns, customers, and products. 
-Please help me design a business scenario that reflects a real-world problem an analyst might face.
-
-Include a short background, 2–3 guiding business questions, and examples of SQL queries that could help answer them.
-```
+It includes:
+- Database schema summary
+- A detailed AI prompt for tools like GPT-4
+- Suggestions for metrics, stakeholders, and deliverables
 
 </details>
 
