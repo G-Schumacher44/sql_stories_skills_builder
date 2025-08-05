@@ -31,8 +31,8 @@ Each scenario is modular and remixable. You can treat them as:
 ## 🧩 TL;DR
 
 - This repo contains SQL projects that simulate real business problems
-- [Scenario 5](story_05_vp_request) is included as a full end-to-end workflow demo
-- All data is generated from [this repo](https://github.com/G-Schumacher44/ecom_sales_data_generator)
+- [story_05_vp_request](story_05_vp_request) is included as a full end-to-end workflow demo
+- All data is generated from the [ecom_sales_data_generator](https://github.com/G-Schumacher44/ecom_sales_data_generator) repository
 - Each story lives in its own folder and includes markdown briefs + SQL
 - Scenarios use clean or messy data to simulate real-life friction
 - GPT-4 was used to generate each scenario's narrative
