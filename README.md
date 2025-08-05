@@ -28,7 +28,7 @@ Each scenario is modular and remixable. You can treat them as:
 
 > 🧠 Inspired by real analyst tasks, tuned for solo practice, and built to scale with your growth.
 
-## 🧩 TLDR;
+## 🧩 TL;DR
 
 - This repo contains SQL projects that simulate real business problems
 - [Scenario 5](story_05_vp_request) is included as a full end-to-end workflow demo
@@ -37,6 +37,19 @@ Each scenario is modular and remixable. You can treat them as:
 - Scenarios use clean or messy data to simulate real-life friction
 - GPT-4 was used to generate each scenario's narrative
 - Great for practicing joins, cohorts, KPIs, and data storytelling
+
+<details>
+<summary>📌 Portfolio Highlight</summary>
+
+If you're reviewing this repo as part of a hiring process, start here:
+
+- [`story_05_vp_request/`](story_05_vp_request/): Full analysis pipeline — raw data → SQL views → notebook → dashboard
+- [`Executive_Retail_Returns_Report.ipynb`](story_05_vp_request/reports/Executive_Retail_Returns_Report.ipynb): Annotated notebook with visuals, commentary, and insights
+- [`Sales_Diagnostic.pdf`](story_05_vp_request/reports/Sales_Diagnostic.pdf): Final deliverable simulating a VP-level presentation
+
+This scenario reflects a real-world analyst workflow: stakeholder request, diagnostic framing, KPI development, cohort analysis, and visual storytelling.
+
+</details>
 
 ## 📐 What’s Included
 
