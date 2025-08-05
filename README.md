@@ -117,7 +117,7 @@ sql_stories/
 │   └── scenrio_01_inventory_accuracy.md
 │
 ├── story_02_customer_retention_snapshot/
-│   └── scenari_02_retention_snapshot.md
+│   └── scenario_02_retention_snapshot.md
 │
 ├── story_03_product_profitability_review/
 │   └── scenario_03_product_profit_review.md
