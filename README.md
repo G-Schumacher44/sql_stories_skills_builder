@@ -39,7 +39,7 @@ Each scenario is modular and remixable. You can treat them as:
 - Great for practicing joins, cohorts, KPIs, and data storytelling
 
 <details>
-<summary>📌 Data Analysis Portfolio Highlights</summary>
+<summary>📌 Data Analyst Portfolio Highlights</summary>
 
 If you're reviewing this repo as part of a hiring process, start here:
 
