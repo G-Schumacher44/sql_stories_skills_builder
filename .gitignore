@@ -1,0 +1,44 @@
+# --- Build Artifacts ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Output & Exported Data ---
+# Ignore specific output directories from story runs
+# The output_data directory for story_05 contains portfolio artifacts.
+
+# Ignore all CSV and DB files, EXCEPT the main database file
+*.csv
+*.db
+!ecom_retailer.db
+# Allow portfolio artifacts from story_05 to be tracked
+!story_05_vp_request/output_data/**/*.csv
+!story_05_vp_request/output_data/*.xlsx
+
+# --- Config & Secrets ---
+*.env
+secrets.yaml
+
+# Ignore all files in the creds directory except for the template
+creds/*
+!creds/sheets_creds_template.json
+
+# --- VS Code ---
+# Ignore user-specific VSCode settings, but allow project settings
+.vscode/*
+!.vscode/settings.json.template
+*.code-workspace
+
+# --- OS files ---
+# Ignore OS-generated files
+##########################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+/${workspaceFolder}

@@ -1,0 +1,32 @@
+{
+  // Set default interpreter for conda environment (UPDATE THIS PATH)
+  "python.defaultInterpreterPath": "/path/to/your/conda/envs/sql_stories_env/bin/python",
+  // Enable Jupyter support with local notebooks
+  "jupyter.jupyterServerType": "local",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  // Auto format with black or preferred formatter
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  // Use environment.yaml for linting/intellisense
+  "python.analysis.extraPaths": [
+    "./story_05_VP_request/python_scripts"
+  ],
+  // Set environment variables (UPDATE THESE VALUES)
+  "terminal.integrated.env.osx": {
+    "GDRIVE_CREDS_PATH": "${workspaceFolder}/creds/your-service-account-file.json",
+    "GDRIVE_SHEET_ID": "YOUR_GOOGLE_SHEET_ID_HERE"
+  },
+  // VS Code Python Linting/Type Checking
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintEnabled": false,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "ecom_retailer",
+      "group": "sql_stories",
+      "database": "ecom_retailer.db"
+    }
+  ]
+}

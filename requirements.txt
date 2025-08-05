@@ -1,0 +1,17 @@
+pandas
+pyyaml
+faker
+matplotlib
+black
+jupyter
+numpy
+sqlalchemy
+openpyxl
+ipykernel
+gspread
+gspread_pandas
+google-api-python-client
+google-auth
+google-auth-oauthlib
+pytest
+sqlite
