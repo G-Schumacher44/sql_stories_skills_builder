@@ -37,22 +37,30 @@ Each scenario is modular and remixable. You can treat them as:
 - GPT-4 was used to generate each scenario's narrative
 - Great for practicing joins, cohorts, KPIs, and data storytelling
 
+## 🧭 Explore the Scenarios
 
-## 📐 What’s Included
+Dive into any of the scenarios below to start practicing. Each link will take you to the business brief, which outlines the stakeholder, objectives, and available data for that challenge.
 
-- `db_builder_v3.zip` — Zipped CSVs and a schema script to build the database.
-- `ecom_retailer_v3.db` — A fully built SQLite database using the latest v3 schema.
-- Five prebuilt SQL scenarios (difficulty levels 1–5)    
-- `storycrafting.md` — Internal design doc on how stories are framed and built.
-- **Data Pipeline Components:**
-  - `run_story.sh` - runner script
-  - `gsheets_uploader.py` - dynamic data transfer script
-  - `secrets_template.yaml` - Template for API secrets and credentials.
-  - `stories_config_template.yaml` - Template for story-specific path configurations.
-- `scripts/check_db.py` - A simple diagnostic tool to validate database integrity.
-- `scripts/csv_to_xlsx.py` - A utility script to convert `.csv` files to `.xlsx` format.
+- [**📦 Scenario 01: Inventory Accuracy Check**](story_01_inventory_accuracy/sceanrio_01_inventory_accuracy.md)
+  - *Focus: Operational Analytics, KPI Creation, Fulfillment Logic*
+- [**📦 Scenario 02: Customer Retention Snapshot**](story_02_customer_retention_snapshot/scenari_02_retention_snapshot.md)
+  - *Focus: Cohort Analysis, Segmentation, Temporal SQL*
+- [**📦 Scenario 03: Product Profitability Review**](story_03_product_profitability_review/scenario_03_product_profit_review.md)
+  - *Focus: Financial Analysis, Contribution Margin, Cost Allocation*
+- [**🛒 Scenario 04: Cart & Customer Behavior Analysis**](story_04_cart_behavior_analysis/scenario_04_cart_behavior_analysis.md)
+  - *Focus: Behavioral Analysis, Funnel Metrics, Sessionization*
+- [**📦 Scenario 05: Diagnostic Request from the VP of Sales**](story_05_vp_request/scenario_05_vp_request.md)
+  - *Focus: Exploratory Data Analysis, Dashboarding, Executive Reporting*
 
-> 🚫 Not included in this repo: the data generator itself — that's housed in [`ecom_sales_data_generator`](https://github.com/G-Schumacher44/ecom_sales_data_generator).
+---
+
+### ✨ See a Finished Example
+
+To see how these scenarios can be turned into a full-fledged portfolio piece, check out the companion repository:
+
+➡️ [**SQL Stories: Portfolio Demo**](https://github.com/G-Schumacher44/sql_stories_portfolio_demo)
+
+This showcase demonstrates a complete workflow — from stakeholder framing to SQL analysis, deliverables, and dashboards.
 
 
 ## 🧭 Orientation & Getting Started
@@ -81,6 +89,25 @@ This repository is one part of a larger, interconnected set of projects. Here’
     *   The public-facing skill-building suite. This is the main "product" where my published story modules are available for the community to use for practice and learning.
 *   **[`sql_stories_portfolio_demo`](https://github.com/G-Schumacher44/sql_stories_portfolio_demo)** `(The Showcase)`
     *   A curated and polished version of the best case studies, designed specifically to be a professional portfolio. It demonstrates the practical application of the tools and data from the other repositories.
+
+</details>
+
+<details>
+<summary>📐 What’s Included</summary>
+
+- `db_builder_v3.zip` — Zipped CSVs and a schema script to build the database.
+- `ecom_retailer_v3.db` — A fully built SQLite database using the latest v3 schema.
+- Five prebuilt SQL scenarios (difficulty levels 1–5)    
+- `storycrafting.md` — Internal design doc on how stories are framed and built.
+- **Data Pipeline Components:**
+  - `run_story.sh` - runner script
+  - `gsheets_uploader.py` - dynamic data transfer script
+  - `secrets_template.yaml` - Template for API secrets and credentials.
+  - `stories_config_template.yaml` - Template for story-specific path configurations.
+- `scripts/check_db.py` - A simple diagnostic tool to validate database integrity.
+- `scripts/csv_to_xlsx.py` - A utility script to convert `.csv` files to `.xlsx` format.
+
+> 🚫 Not included in this repo: the data generator itself — that's housed in [`ecom_sales_data_generator`](https://github.com/G-Schumacher44/ecom_sales_data_generator).
 
 </details>
 
@@ -186,32 +213,6 @@ It includes:
 
 ___
 
-## 🧭 Explore the Scenarios
-
-Dive into any of the scenarios below to start practicing. Each link will take you to the business brief, which outlines the stakeholder, objectives, and available data for that challenge.
-
-- [**📦 Scenario 01: Inventory Accuracy Check**](story_01_inventory_accuracy/sceanrio_01_inventory_accuracy.md)
-  - *Focus: Operational Analytics, KPI Creation, Fulfillment Logic*
-- [**📦 Scenario 02: Customer Retention Snapshot**](story_02_customer_retention_snapshot/scenari_02_retention_snapshot.md)
-  - *Focus: Cohort Analysis, Segmentation, Temporal SQL*
-- [**📦 Scenario 03: Product Profitability Review**](story_03_product_profitability_review/scenario_03_product_profit_review.md)
-  - *Focus: Financial Analysis, Contribution Margin, Cost Allocation*
-- [**🛒 Scenario 04: Cart & Customer Behavior Analysis**](story_04_cart_behavior_analysis/scenario_04_cart_behavior_analysis.md)
-  - *Focus: Behavioral Analysis, Funnel Metrics, Sessionization*
-- [**📦 Scenario 05: Diagnostic Request from the VP of Sales**](story_05_vp_request/scenario_05_vp_request.md)
-  - *Focus: Exploratory Data Analysis, Dashboarding, Executive Reporting*
-
----
-
-### ✨ See a Finished Example
-
-To see how these scenarios can be turned into a full-fledged portfolio piece, check out the companion repository:
-
-➡️ [**SQL Stories: Portfolio Demo**](https://github.com/G-Schumacher44/sql_stories_portfolio_demo)
-
-This showcase demonstrates a complete workflow — from stakeholder framing to SQL analysis, deliverables, and dashboards.
-
-___
 
 ### 🛠 Environment Setup
 
