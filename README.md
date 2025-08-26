@@ -186,19 +186,30 @@ It includes:
 
 ___
 
-## 🔗 Ready to Explore?
+## 🧭 Explore the Scenarios
 
-Start with **[SQL Stories: Portfolio Demo]([PlaceHolderlink](https://github.com/G-Schumacher44/sql_stories_portfolio_demo))** to see a full workflow — from stakeholder framing to SQL analysis, deliverables, and dashboards.
+Dive into any of the scenarios below to start practicing. Each link will take you to the business brief, which outlines the stakeholder, objectives, and available data for that challenge.
 
-Or explore the simulation step-by-step:
-- Open `ecom_retailer_v3.db` in your SQLite viewer of choice
-- Review [`db_builder_v3.zip`](ecom_data_gen_output/db_builder.zip) to rebuild the database from CSV
-- Read through [`storycrafting.md`](storycrafting.md) for how scenarios are built and framed
-- Try enhancing an existing scenario — or writing your own from scratch
+- [**📦 Scenario 01: Inventory Accuracy Check**](story_01_inventory_accuracy/sceanrio_01_inventory_accuracy.md)
+  - *Focus: Operational Analytics, KPI Creation, Fulfillment Logic*
+- [**📦 Scenario 02: Customer Retention Snapshot**](story_02_customer_retention_snapshot/scenari_02_retention_snapshot.md)
+  - *Focus: Cohort Analysis, Segmentation, Temporal SQL*
+- [**📦 Scenario 03: Product Profitability Review**](story_03_product_profitability_review/scenario_03_product_profit_review.md)
+  - *Focus: Financial Analysis, Contribution Margin, Cost Allocation*
+- [**🛒 Scenario 04: Cart & Customer Behavior Analysis**](story_04_cart_behavior_analysis/scenario_04_cart_behavior_analysis.md)
+  - *Focus: Behavioral Analysis, Funnel Metrics, Sessionization*
+- [**📦 Scenario 05: Diagnostic Request from the VP of Sales**](story_05_vp_request/scenario_05_vp_request.md)
+  - *Focus: Exploratory Data Analysis, Dashboarding, Executive Reporting*
 
-> Every folder is a sandbox. Fork, remix, and extend as you grow your SQL fluency.
+---
 
-Need ideas? Run the [sample AI prompt](sample_ai_prompt.md) with your own data for instant scenario generation.
+### ✨ See a Finished Example
+
+To see how these scenarios can be turned into a full-fledged portfolio piece, check out the companion repository:
+
+➡️ [**SQL Stories: Portfolio Demo**](https://github.com/G-Schumacher44/sql_stories_portfolio_demo)
+
+This showcase demonstrates a complete workflow — from stakeholder framing to SQL analysis, deliverables, and dashboards.
 
 ___
 
