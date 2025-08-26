@@ -73,7 +73,7 @@ Along the way, it became clear that this system — combining simulated data, sc
 <details>
 <summary><strong>🗺️ About the Project Ecosystem</strong></summary>
 
-This portfolio is one part of a larger, interconnected set of projects. Here’s how they fit together:
+This repository is one part of a larger, interconnected set of projects. Here’s how they fit together:
 
 *   **[ecom_sales_data_generator](https://github.com/G-Schumacher44/ecom_sales_data_generator)** `(The Engine)`
     *   A custom Python package that produces the realistic, synthetic e-commerce data used in all the case studies. It's the source of truth for the data.
