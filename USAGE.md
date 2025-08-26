@@ -7,7 +7,7 @@
 <p align="center">
   <img alt="Guide" src="https://img.shields.io/badge/guide-pipeline_usage-blue">
   <img alt="Status" src="https://img.shields.io/badge/status-active-brightgreen">
-  <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0-blueviolet">
+  <img alt="Version" src="https://img.shields.io/badge/version-v0.2.0-blueviolet">
 </p>
 
 ## 🧩 Purpose

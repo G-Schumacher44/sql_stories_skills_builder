@@ -1,6 +1,16 @@
-# 🛠️ storycrafting.md
+<p align="center">
+  <img src="repo_files/dark_logo_banner.png" width="1000"/>
+  <br>
+  <em>Scenario Design & Methodology</em>
+</p>
 
-## 🎯 Purpose
+<p align="center">
+  <img alt="Guide" src="https://img.shields.io/badge/guide-storycrafting-blue">
+  <img alt="Status" src="https://img.shields.io/badge/status-active-brightgreen">
+  <img alt="Version" src="https://img.shields.io/badge/version-v0.2.0-blueviolet">
+</p>
+
+## 🎯 Purpose of This Document
 
 This document explains how each SQL Story in this repo is created using a mix of synthetic data generation, structured business framing, and AI-assisted scenario design. The goal is to simulate realistic business questions and data challenges that strengthen SQL and analytical fluency.
 
