@@ -1,3 +1,27 @@
+# ==============================================================================
+# Gitignore for SQL Stories Project
+#
+# This file prevents temporary, sensitive, or user-specific files from
+# being committed to the repository.
+# ==============================================================================
+
+# --- User-Specific Configuration and Secrets ---
+# These files are generated from templates and contain sensitive information.
+secrets.yaml
+stories_config.yaml
+
+# --- Credentials ---
+# Ignore the credentials directory content to protect service account keys.
+# The template guides users to place their JSON key here.
+creds/*.json
+!creds/sheets_creds_template.json
+
+# --- Python ---
+# Virtual environments
+.env
+venv/
+env/
+
 # --- Build Artifacts ---
 __pycache__/
 *.py[cod]
@@ -12,18 +36,7 @@ dist/
 # Ignore all CSV and DB files, EXCEPT the main database file
 *.csv
 *.db
-!ecom_retailer.db
-# Allow portfolio artifacts from story_05 to be tracked
-!story_05_vp_request/output_data/**/*.csv
-!story_05_vp_request/output_data/*.xlsx
-
-# --- Config & Secrets ---
-*.env
-secrets.yaml
-
-# Ignore all files in the creds directory except for the template
-creds/*
-!creds/sheets_creds_template.json
+!ecom_retailer_v3.db
 
 # --- VS Code ---
 # Ignore user-specific VSCode settings, but allow project settings
@@ -41,4 +54,3 @@ creds/*
 .Trashes
 ehthumbs.db
 Thumbs.db
-/${workspaceFolder}

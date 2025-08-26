@@ -1,0 +1,46 @@
+# ==============================================================================
+# stories_config.yaml (TEMPLATE)
+#
+# Central configuration for the data pipeline. Rename this file to
+# `stories_config.yaml` before use.
+#
+# This file maps each "story" (which corresponds to a directory name) to its
+# Google Sheet and defines which database views to export.
+#
+# How it works:
+# The `run_story.sh` script calls `scripts/gsheets_uploader.py` with a story name.
+# The uploader script uses this file to find:
+#   1. `sheet_id_var`: The name of the variable in `secrets.yaml` that holds the
+#      Google Sheet ID for the story.
+#   2. `exports` OR `view_prefix`: The specific views to upload.
+#      - Use `exports` for a specific list of views and their target sheet (tab) names.
+#        This is useful for single views or when view names don't share a prefix.
+#      - Use `view_prefix` to automatically find and upload all database views
+#        that start with a given prefix. Each view will be uploaded to a new tab
+#        named after the view itself.
+# ==============================================================================
+
+story_01_inventory_accuracy:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_01'
+  exports:
+    - db_view: 'inventory_audit'
+      sheet_name: 'inventory_audit_data' # Data will be uploaded to a tab named 'inventory_audit_data'
+
+story_02_customer_retention_snapshot:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_02'
+  view_prefix: 'dash_retention_' # Will find and upload views like 'dash_retention_cohort', 'dash_retention_kpis', etc.
+
+story_03_product_profitability_review:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_03'
+  view_prefix: 'profit_' # Will find and upload views like 'profit_by_sku', 'profit_by_category', etc.
+
+story_04_operational_impact_analysis:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_04'
+  view_prefix: 'ops_impact_' # Example: will find 'ops_impact_returns', 'ops_impact_shipping'
+
+story_05_vp_request:
+  sheet_id_var: 'GDRIVE_SHEET_ID_story_05'
+  view_prefix: 'dash_' # Finds all views prefixed with 'dash_' for the VP dashboard, as per the USAGE.md example.
+
+# Add new stories here. The top-level key (e.g., 'story_01_inventory_accuracy')
+# MUST match the story's directory name.

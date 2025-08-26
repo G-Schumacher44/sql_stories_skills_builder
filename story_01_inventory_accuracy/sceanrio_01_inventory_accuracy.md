@@ -54,3 +54,23 @@ This diagnostic uses `ecom_retailer.db`, a simulated ecommerce operations databa
 
 >✍️ Analytical Framing:  
 This scenario introduces inventory diagnostics, joins across fulfillment and return logic, and starter KPI creation — ideal for developing SQL skills and understanding operational data structure.
+
+<div align="center">
+  <a href="#">
+    ⬆️ <b>Back to Top</b>
+  </a>
+</div>
+
+<p align="center">
+  <a href="../README.md">🏠 <b>Main README</b></a>
+  &nbsp;·&nbsp;
+  <a href="../USAGE.md">📖 <b>Usage Guide</b></a>
+  &nbsp;·&nbsp;
+  <a href="../storycrafting.md">🛠️ <b>Storycrafting</b></a>
+  &nbsp;·&nbsp;
+  <a href="../sample_ai_prompt.md">🤖 <b>AI Prompt Guide</b></a>
+</p>
+
+<p align="center">
+  <sub>✨ SQL · Python · Storytelling ✨</sub>
+</p>

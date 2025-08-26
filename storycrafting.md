@@ -17,12 +17,12 @@ That repo provides:
 - Scenario-based YAML configurations
 - Controlled injection of data messiness
 
-🗂️ This Repository includes [db_builder.zip](ecom_data_gen_output/db_builder.zip)
+🗂️ This repository includes `db_builder_v3.zip`, located in the `ecom_data_gen_output/` directory.
 
 The output includes:
 - Clean CSVs for each table (`orders`, `order_items`, `returns`, etc.)
 - A zip archive with loading assets:  
-  `ecom_data_gen_output/db_builder.zip`
+  `ecom_data_gen_output/db_builder_v3.zip`
 
 Inside that zip:
 - `*.csv` files (one per table)
@@ -39,7 +39,7 @@ The data generator supports configurable “mess” levels:
 
 This messiness emulates POS systems or early-stage data warehouses where governance is still maturing.
 
->included database was configured with a `meduim` mess injection.
+> The included database was configured with a `medium` mess injection.
 
 ---
 
@@ -58,12 +58,13 @@ AI helps keep every story grounded, engaging, and useful — from beginner tutor
 
 ## 📦 Story Format
 
-Each story lives in its own folder, e.g. `story_03_product_profitability/` and includes:
+Each story lives in its own folder (e.g., `story_01_inventory_accuracy/`) and follows a consistent structure:
 
 - A `scenario_XX_name.md` brief describing the context and goals
-- `queries.sql` containing core analysis queries
-- `load_data.sql` and supporting CSVs
-- Optional: dashboards, Jupyter notebooks, QA notes
+- A `sql_sessions/` subdirectory that contains the SQL scripts for the automated pipeline:
+  - `build_*.sql` scripts create the temporary views for analysis.
+  - `cleanup_*.sql` scripts drop the views after the pipeline runs.
+- Optional: Jupyter notebooks, QA notes, or other supporting artifacts.
 
 ---
 
@@ -87,6 +88,16 @@ These stories replicate that — helping you build SQL muscle in realistic conte
 
 > _Every scenario is a mini sandbox for growing analytical confidence and narrative clarity._
 
----
+<p align="center">
+  <a href="README.md">🏠 <b>Main README</b></a>
+  &nbsp;·&nbsp;
+  <a href="USAGE.md">📖 <b>Usage Guide</b></a>
+  &nbsp;·&nbsp;
+  <a href="storycrafting.md">🛠️ <b>Storycrafting</b></a>
+  &nbsp;·&nbsp;
+  <a href="sample_ai_prompt.md">🤖 <b>AI Prompt Guide</b></a>
+</p>
 
-⬅️ [Return to Main Project README](README.md)
+<p align="center">
+  <sub>✨ SQL · Python · Storytelling ✨</sub>
+</p>
