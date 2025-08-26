@@ -17,6 +17,7 @@ It contains realistic but synthetic data across the following tables:
 - `return_items` — product-level breakdown of what was returned
 - `customers` — customer_id, signup_date, loyalty_tier, region
 - `product_catalog` — product_id, category, name, original_price, discounted_price
+- `shopping carts` - includes timestamps for open and update
 
 The dataset includes light-to-moderate messiness (nulls, inconsistent values, date fuzzing).
 

@@ -53,3 +53,17 @@ This diagnostic uses `ecom_retailer.db`, a simulated ecommerce dataset with beha
 
 >✍️ Analytical Framing:  
 This scenario introduces cohort grouping, temporal analysis, segmentation, and churn proxy signals — ideal for building intermediate SQL and customer analytics skills.
+
+<p align="center">
+  <a href="../README.md">🏠 <b>Main README</b></a>
+  &nbsp;·&nbsp;
+  <a href="../USAGE.md">📖 <b>Usage Guide</b></a>
+  &nbsp;·&nbsp;
+  <a href="../storycrafting.md">🛠️ <b>Storycrafting</b></a>
+  &nbsp;·&nbsp;
+  <a href="../sample_ai_prompt.md">🤖 <b>AI Prompt Guide</b></a>
+</p>
+
+<p align="center">
+  <sub>✨ SQL · Python · Storytelling ✨</sub>
+</p>

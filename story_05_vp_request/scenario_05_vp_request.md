@@ -58,3 +58,18 @@ The scenario and dataset used in this analysis were generated using the open-sou
 >✍️ Analytical Framing:
 The business context, stakeholder roles, and scenario narrative were crafted using GPT-4 to simulate a real-world diagnostic request. This framing is intended to guide exploratory data analysis, storytelling, and portfolio-quality project design.
 
+---
+
+<p align="center">
+  <a href="../README.md">🏠 <b>Main README</b></a>
+  &nbsp;·&nbsp;
+  <a href="../USAGE.md">📖 <b>Usage Guide</b></a>
+  &nbsp;·&nbsp;
+  <a href="../storycrafting.md">🛠️ <b>Storycrafting</b></a>
+  &nbsp;·&nbsp;
+  <a href="../sample_ai_prompt.md">🤖 <b>AI Prompt Guide</b></a>
+</p>
+
+<p align="center">
+  <sub>✨ SQL · Python · Storytelling ✨</sub>
+</p>
