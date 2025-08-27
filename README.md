@@ -118,17 +118,17 @@ This repository is one part of a larger, interconnected set of projects. Here’
 
 - **Story Module 4 & 5 Update:** to better align with `ecom_retailer_v3.db`
 - **Build Package:** updated to `ecom_retailer_v3.db` (legacy `ecom_retailer.db` available with v0.2.0 release package)
-- **Deprecated v0.2.0 story_05_vp_request demo:** Demo is now available in `placeholder for the moment`
+- **Deprecated v0.2.0 story_05_vp_request demo:** Demo is now available in [`VP Request Case Study Repository`](https://github.com/G-Schumacher44/VP-Request)
 - **Google Sheets Pipline:** The below files have been added to add depth and ease of use for deliverable production;
-  - [gsheets_uploader.py](/scripts/gsheets_uploader.py)
-  - [secrets_templates.yaml](secrets_templates.yaml)  
+  - [g_drive_uploader.py](scripts/g_drive_uploader.py)
+  - [secrets_templates.yaml](secrets_template.yaml)  
   - [stories_config_template.yaml](stories_config_template.yaml) 
   - [Usage Guide](USAGE.md)
 - **Additional Script:** Two additonal Scripts Added
   - [csv_to_xlsx.py:](scripts/csv_to_xlsx.py) Convert csv files to .xlxs format
   - [check_db.py:](scripts/check_db.py) a quick database diagnostic tool.
 
->>`ecom_sales_data_generator` - **v0.3.0 update** [*generator repository*](https://github.com/G-Schumacher44/ecom_sales_data_generator)
+>>`ecom_sales_data_generator` - **v0.3.0 update** [*Ecommerce Sales Data Generator Repository*](https://github.com/G-Schumacher44/ecom_sales_data_generator)
 >>- **Enriched Cart & Session Analysis:** Added detailed timestamps (created_at, updated_at, added_at) and distinguished between abandoned and emptied carts for granular analysis of user intent.
 >>- **Advanced Behavioral Modeling:** Introduced highly stratified customer behavior based on signup_channel and loyalty_tier, influencing repeat purchase rates, timing, and product preferences.
 >>- **Earned Customer Status:** Implemented logic for customers to "earn" their loyalty_tier and clv_bucket based on cumulative spend, creating a realistic customer lifecycle.
