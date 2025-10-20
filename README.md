@@ -83,12 +83,16 @@ Along the way, it became clear that this system — combining simulated data, sc
 
 This repository is one part of a larger, interconnected set of projects. Here’s how they fit together:
 
-*   **[ecom_sales_data_generator](https://github.com/G-Schumacher44/ecom_sales_data_generator)** `(The Engine)`
-    *   A custom Python package that produces the realistic, synthetic e-commerce data used in all the case studies. It's the source of truth for the data.
-*   **sql_stories_skills_builder (This Repository)** `(Learning Lab)`
-    *   The public-facing skill-building suite. This is the main "product" where my published story modules are available for the community to use for practice and learning.
-*   **[`sql_stories_portfolio_demo`](https://github.com/G-Schumacher44/sql_stories_portfolio_demo)** `(The Showcase)`
-    *   A curated and polished version of the best case studies, designed specifically to be a professional portfolio. It demonstrates the practical application of the tools and data from the other repositories.
+* **[`ecom_sales_data_generator`](https://github.com/G-Schumacher44/ecom_sales_data_generator)** `(The Engine)`  
+  Generates realistic, relational ecommerce datasets. This extension imports it and keeps that repo focused on synthesis.
+* **[`ecom-datalake-exten`](https://github.com/G-Schumacher44/ecom-datalake-exten)** `(This Repo · The Lake Layer)`  
+  Converts generator output to Parquet, attaches lineage, and publishes to raw/bronze buckets.
+* **[`sql_stories_skills_builder`](https://github.com/G-Schumacher44/sql_stories_skills_builder)** `(Learning Lab)`  
+  Publishes the story modules and exercises that use these datasets for hands-on practice.
+* **[`sql_stories_portfolio_demo`](https://github.com/G-Schumacher44/sql_stories_portfolio_demo/tree/main)** `(The Showcase)`  
+  Curates the best case studies into a polished portfolio for professional storytelling.
+* **gcs-automation-project** `(In Development · The Orchestrator)`  
+  Planned orchestration layer for scheduling backlog runs, triggering BigQuery loads/merges, and coordinating downstream DAGs.
 
 </details>
 
