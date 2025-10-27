@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="repo_files/dark_logo_banner.png" width="1000"/>
+  <img src="repo_files/sql_stories_logo.png" width="1000"/>
   <br>
   <em>SQL Training Simulation & Educational Toolkit</em>
 </p>
@@ -85,11 +85,11 @@ This repository is one part of a larger, interconnected set of projects. Here’
 
 * **[`ecom_sales_data_generator`](https://github.com/G-Schumacher44/ecom_sales_data_generator)** `(The Engine)`  
   Generates realistic, relational ecommerce datasets. This extension imports it and keeps that repo focused on synthesis.
-* **[`ecom-datalake-exten`](https://github.com/G-Schumacher44/ecom-datalake-exten)** `(This Repo · The Lake Layer)`  
+* **[`ecom-datalake-exten`](https://github.com/G-Schumacher44/ecom-datalake-exten)** `The Lake Layer)`  
   Converts generator output to Parquet, attaches lineage, and publishes to raw/bronze buckets.
-* **[`sql_stories_skills_builder`](https://github.com/G-Schumacher44/sql_stories_skills_builder)** `(Learning Lab)`  
+* **[`sql_stories_skills_builder`](https://github.com/G-Schumacher44/sql_stories_skills_builder)** `(Learning Lab -This repository)`  
   Publishes the story modules and exercises that use these datasets for hands-on practice.
-* **[`sql_stories_portfolio_demo`](https://github.com/G-Schumacher44/sql_stories_portfolio_demo/tree/main)** `(The Showcase)`  
+* **[`sql_stories_portfolio_demo`](https://github.com/G-Schumacher44/sql_stories_portfolio_demo/tree/main)** `(The Showcase -This repository)`  
   Curates the best case studies into a polished portfolio for professional storytelling.
 * **gcs-automation-project** `(In Development · The Orchestrator)`  
   Planned orchestration layer for scheduling backlog runs, triggering BigQuery loads/merges, and coordinating downstream DAGs.

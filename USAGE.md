@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="repo_files/dark_logo_banner.png" width="1000"/>
+  <img src="repo_files/sql_stories_logo.png" width="1000"/>
   <br>
   <em>Automated Data Pipeline: Usage Guide</em>
 </p>
